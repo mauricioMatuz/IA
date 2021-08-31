@@ -1,0 +1,13 @@
+# Carpetas con el dataset
+data/training/*
+data/validate/*
+
+# Excepción de la estructura de las carpetas
+!data/training/.gitkeep
+!data/validate/.gitkeep
+
+# Modelo de la red, generado por el entrenamiento
+model/
+
+# Carpetas de imagenes para probar el modelo
+data/test/*
